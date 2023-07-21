@@ -23,7 +23,20 @@ const Media = () => {
         <div className="flex justify-center p-6">
           <iframe
             style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/artist/6HVLHViA5dYIhj2X62Bqix?utm_source=generator&theme=0"
+            src="https://open.spotify.com/embed/album/68gl6q8DljVb39CVfmtCgO?utm_source=generator&theme=0"
+            width="100%"
+            height="352"
+            frameBorder="0"
+            allowFullScreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            className="max-w-3xl"
+          ></iframe>
+        </div>
+        <div className="flex justify-center p-6 pt-0">
+          <iframe
+            style={{ borderRadius: '12px' }}
+            src="https://open.spotify.com/embed/album/67CY06CQajt7zVhD0QFEAL?utm_source=generator"
             width="100%"
             height="352"
             frameBorder="0"
@@ -42,7 +55,19 @@ const Media = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
-            className="rounded-xl max-w-3xl"
+            className=" max-w-3xl"
+          ></iframe>
+        </div>
+        <div className="justify-center flex p-6 pt-0">
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/lry89GQoQRE"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className=" max-w-3xl"
           ></iframe>
         </div>
       </div>

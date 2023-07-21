@@ -5,7 +5,7 @@ import Album from '../components/Album'
 const Home = () => {
   return (
     <>
-      <div className="bg-gray-200">
+      <div className="bg-gray-200 pt-20 md:pt-0">
         <div className="">
           <img
             src={bandMountain}
@@ -14,9 +14,9 @@ const Home = () => {
           />
         </div>
         <div className="text-center">
-          <h1 className="text-2xl p-6">
-            New album, <span className="italic">Sober Again</span> available
-            now.
+          <h1 className="text-xl p-6">
+            New album, <span className="italic font-bold">Sober Again</span>{' '}
+            available now.
           </h1>
           <a href="https://jacksongrimm.bandcamp.com/album/sober-again">
             <button className="rounded bg-yellow-800 text-gray-100 font-bold  py-2 px-4 mr-4 tracking-widest lg:mb-4 hover:opacity-80 duration-500 shadow-xl">

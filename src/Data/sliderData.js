@@ -1,9 +1,8 @@
 import airtimeSessions from '../images/airtime-sessions.jpeg'
 import bullMoose from '../images/bull-moose-album.jpeg'
 import soberAlbum from '../images/sober-album.jpeg'
-import stringBand from '../images/stringband-image.jpeg'
 
-const albumData = [
+const sliderData = [
   {
     title: 'Sober Again',
     image: soberAlbum,
@@ -19,8 +18,7 @@ const albumData = [
     id: '12',
     year: 'Nov 2018',
     link: 'https://jacksongrimm.bandcamp.com/album/the-bull-moose-party',
-    description:
-      'Jackson Grimm & the Bull Moose Party brings a perfect mixture of high-energy bluegrass, beautiful melodies, & real, raw songwriting. \n"..a basically perfect Americana album" -country.d',
+    description: '"..a basically perfect Americana album" \n-country.d',
   },
   {
     title: 'The Airtime Sessions',
@@ -28,13 +26,9 @@ const albumData = [
     id: '3',
     year: 'Jan 2016',
     link: 'https://jacksongrimm.bandcamp.com/album/the-airtime-sessions',
-  },
-  {
-    title: 'Lord of the Stringband T-Shirt',
-    image: stringBand,
-    id: '4',
-    link: 'https://jacksongrimm.bandcamp.com/merch/lord-of-the-rings-stringband',
+    description:
+      'The Airtime Sessions is the first production of singer/songwriter Jackson Grimm.',
   },
 ]
 
-export default albumData
+export default sliderData

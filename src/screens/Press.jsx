@@ -2,6 +2,7 @@ import React from 'react'
 import jacksonBand from '../images/jackson-band.webp'
 import soberAlbum from '../images/sober-album.jpeg'
 import { Link } from 'react-router-dom'
+import Slider from '../components/Slider'
 
 const Press = () => {
   return (
@@ -22,26 +23,11 @@ const Press = () => {
             </div>
           </div>
         </header>
-        <div className="border rounded-lg shadow-xl p-6 max-w-3xl mx-auto mt-5 mb-5    bg-slate-50 custom-container">
-          <div className="grid grid-cols-2 justify-center items-center gap-2 ">
-            <div className=" ">
-              <p className="mb-4">
-                <span className="italic font-bold"> Sober Again </span>released
-                August 6th, 2021. Currently spinning on Folk Radio and streaming
-                on all platforms.
-              </p>
-              <p className="italic">
-                "..a basically perfect Americana album"{' '}
-                <span className="not-italic">-country.d</span>
-              </p>
-            </div>
-            <img
-              src={soberAlbum}
-              alt="Bull Moose Party band"
-              className="max-w-full h-auto "
-            />
-          </div>
+
+        <div className="border rounded-lg shadow-xl p-6 max-w-3xl mx-auto mt-6 mb-5    bg-slate-50 custom-container">
+          <Slider />
         </div>
+
         <div className="flex  justify-center p-6 -mt-5">
           <p className="max-w-3xl">
             Jackson Grimm marries folk pop melodies with the lonesome sound of
@@ -58,19 +44,20 @@ const Press = () => {
             what sets this ensemble apart from the others are the vocal
             harmonies and the band dynamics. Audiences can tell when bands have
             been playing together for years and this group shows that 10-fold.
-            <br></br> <br></br>
-            Jackson Grimm & the Bull Moose Party brings a perfect mixture of
+            <br></br>
+            <br></br>
+            Jackson Grimm & The Bull Moose Party brings a perfect mixture of
             high-energy bluegrass, beautiful melodies, & real, raw songwriting.
           </p>
         </div>
-        <div className="text-center">
+        <div className="text-center p-4">
           <Link to="https://jacksongrimm.bandcamp.com/merch">
-            <button className="rounded bg-yellow-800 text-gray-100 font-bold  py-2 px-4 mr-4 tracking-widest  hover:opacity-80 duration-500 shadow-xl ">
+            <button className="rounded bg-yellow-800 text-gray-100 font-bold  py-2 px-4 tracking-widest  hover:opacity-80 duration-500 shadow-xl mr-6 ">
               STREAM <span className="font-normal">//</span> PURCHASE
             </button>
           </Link>
           <Link to="/contact">
-            <button className="rounded bg-slate-50 text-yellow-800 font-bold  py-2 px-4 mr-4 tracking-widest hover:opacity-70 duration-500 mb-8 shadow-xl ">
+            <button className="rounded bg-slate-50 text-yellow-800 font-bold mr-4 py-2 px-4 tracking-widest hover:opacity-70 duration-500 mb-6 shadow-xl mt-3 ">
               CONTACT
             </button>
           </Link>
