@@ -12,6 +12,7 @@ import Landing from './screens/Landing'
 import Home from './screens/Home'
 import Bio from './screens/Bio'
 import Media from './screens/Media'
+import Press from './screens/Press'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path="/home" element={<Home />}></Route>
       <Route path="/bio" element={<Bio />}></Route>
       <Route path="/media" element={<Media />}></Route>
+      <Route path="/press" element={<Press />}></Route>
     </Route>
   )
 )

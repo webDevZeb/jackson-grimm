@@ -19,7 +19,7 @@ const Home = () => {
             now.
           </h1>
           <a href="https://jacksongrimm.bandcamp.com/album/sober-again">
-            <button className="rounded bg-yellow-800 text-gray-100 font-bold  py-2 px-4 mr-4 tracking-widest lg:mb-4 hover:opacity-80 duration-500">
+            <button className="rounded bg-yellow-800 text-gray-100 font-bold  py-2 px-4 mr-4 tracking-widest lg:mb-4 hover:opacity-80 duration-500 shadow-xl">
               STREAM <span className="font-normal">//</span> PURCHASE
             </button>
           </a>

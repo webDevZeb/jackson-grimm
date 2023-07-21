@@ -54,14 +54,14 @@ const Header = () => {
               </Link>
               <Link
                 className="hover:text-gray-100 duration-500"
-                to="/"
+                to="/press"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Press Kit
               </Link>
               <Link
                 className="hover:text-gray-100 duration-500"
-                to="/"
+                to="/tour"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Tour
@@ -105,7 +105,7 @@ const Header = () => {
                 style={{ width: '1.5rem', height: '1.5rem' }}
                 onClick={() => setIsOpen(!isOpen)}
                 onClick={handleHamburgerClick}
-                className="cursor-pointer"
+                className="cursor-pointer hover:text-slate-50 duration-500 "
               ></GiHamburgerMenu>
 
               <h1 className="text-2xl tracking-widest ml-4">Jackson Grimm</h1>
@@ -125,14 +125,14 @@ const Header = () => {
               </Link>
               <Link
                 className="hover:text-gray-100 duration-500 mb-3"
-                to="/"
+                to="/press"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Press Kit
               </Link>
               <Link
                 className="hover:text-gray-100 duration-500 mb-3"
-                to="/"
+                to="/tour"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Tour

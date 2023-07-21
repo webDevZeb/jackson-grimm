@@ -1,5 +1,5 @@
 import React from 'react'
-import jacksonBand from '../images/jackson-band.webp'
+import jacksonOutdoors from '../images/jackson-outdoors.jpeg'
 
 const Media = () => {
   return (
@@ -8,7 +8,7 @@ const Media = () => {
         <header className="h-screen/3 overflow-hidden">
           <div className="relative">
             <img
-              src={jacksonBand}
+              src={jacksonOutdoors}
               alt="Jackson holding guitar"
               style={{ width: '100%', height: '35vh', objectFit: 'cover' }}
               className="opacity-40  w-auto h-auto"
