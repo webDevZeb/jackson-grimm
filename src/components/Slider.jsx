@@ -36,7 +36,7 @@ const Slider = () => {
 
   return (
     <>
-      <div className=" relative group">
+      <div className="relative group">
         <div
           className="grid grid-cols-2 justify-center items-center gap-2 "
           style={{ height: '250px' }}

@@ -4,7 +4,7 @@ import jacksonFlag from '../images/jackson-flag.jpeg'
 const Bio = () => {
   return (
     <>
-      <header className="h-screen/3 overflow-hidden">
+      <header className="h-screen/3 overflow-hidden pt-20 md:pt-0 ">
         <div className="relative">
           <img
             src={jacksonFlag}

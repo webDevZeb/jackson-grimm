@@ -4,7 +4,7 @@ import jacksonOutdoors from '../images/jackson-outdoors.jpeg'
 const Media = () => {
   return (
     <>
-      <div className="bg-gray-200">
+      <div className="bg-gray-200 pt-20 md:pt-0">
         <header className="h-screen/3 overflow-hidden">
           <div className="relative">
             <img

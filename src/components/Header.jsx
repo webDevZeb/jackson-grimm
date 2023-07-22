@@ -2,11 +2,18 @@ import React, { useEffect, useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { CgCloseR } from 'react-icons/cg'
+import { useLocation } from 'react-router-dom'
 
 const Header = () => {
   const [isMediumScreen, setIsMediumScreen] = useState(window.innerWidth > 768)
   const [isOpen, setIsOpen] = useState(false)
   const menuRef = useRef()
+  const location = useLocation()
+
+  // makes sure page starts at top when a new link is visited on mobile nav
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location])
 
   useEffect(() => {
     const handleResize = () => {
@@ -99,7 +106,7 @@ const Header = () => {
           </nav>
         </header>
       ) : (
-        <div className="fixed top-0 left-0 w-full z-10">
+        <div className="fixed top-0 left-0 w-full z-10 ">
           <nav className="bg-gray-600 p-6 text-gray-300 flex items-center justify-between ">
             <div className="flex items-center">
               {isOpen ? (
