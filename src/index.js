@@ -13,6 +13,7 @@ import Home from './screens/Home'
 import Bio from './screens/Bio'
 import Media from './screens/Media'
 import Press from './screens/Press'
+import Contact from './screens/Contact'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route path="/bio" element={<Bio />}></Route>
       <Route path="/media" element={<Media />}></Route>
       <Route path="/press" element={<Press />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
     </Route>
   )
 )

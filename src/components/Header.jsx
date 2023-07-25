@@ -10,7 +10,7 @@ const Header = () => {
   const menuRef = useRef()
   const location = useLocation()
 
-  // makes sure page starts at top when a new link is visited on mobile nav
+  // makes sure page starts at top when a new page is visited on mobile nav
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [location])
@@ -67,13 +67,13 @@ const Header = () => {
               >
                 Press Kit
               </Link>
-              <Link
+              {/* <Link
                 className="hover:text-gray-100 duration-500"
                 to="/tour"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Tour
-              </Link>
+              </Link> */}
               <Link
                 className="hover:text-gray-100 duration-500"
                 to="https://jacksongrimm.bandcamp.com/merch"
@@ -97,7 +97,7 @@ const Header = () => {
               </Link>
               <Link
                 className="hover:text-gray-100 duration-500"
-                to="/"
+                to="/contact"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Contact
@@ -144,13 +144,13 @@ const Header = () => {
               >
                 Press Kit
               </Link>
-              <Link
+              {/* <Link
                 className="hover:text-slate-400 duration-500 mb-3"
                 to="/tour"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Tour
-              </Link>
+              </Link> */}
               <Link
                 className="hover:text-slate-400 duration-500 mb-3"
                 to="https://jacksongrimm.bandcamp.com/merch"
@@ -174,7 +174,7 @@ const Header = () => {
               </Link>
               <Link
                 className="hover:text-slate-400 duration-500"
-                to="/"
+                to="/contact"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Contact
