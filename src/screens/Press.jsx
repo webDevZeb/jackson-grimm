@@ -3,10 +3,16 @@ import jacksonBand from '../images/jackson-band.webp'
 import soberAlbum from '../images/sober-album.jpeg'
 import { Link } from 'react-router-dom'
 import Slider from '../components/Slider'
+import { Helmet } from 'react-helmet-async'
 
 const Press = () => {
   return (
     <>
+      <Helmet>
+        <title>Press Kit</title>
+        <meta name="description" content="Check out the press kit." />
+        <link rel="canonical" href="/press" />
+      </Helmet>
       <div className="bg-gray-200 pt-20 md:pt-0">
         <header className="h-screen/3 overflow-hidden">
           <div className="relative">

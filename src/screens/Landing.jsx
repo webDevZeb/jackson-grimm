@@ -1,11 +1,17 @@
 import React from 'react'
 import soberagainhero from '../images/sober-again-hero.webp'
+import { Helmet } from 'react-helmet-async'
 
 import { Link } from 'react-router-dom'
 
 const Landing = () => {
   return (
     <div className="relative w-screen h-screen">
+      <Helmet>
+        <title>Landing</title>
+        <meta name="description" content="Enter the site." />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <img
         src={soberagainhero}
         alt="sober again album"

@@ -1,9 +1,15 @@
 import React from 'react'
 import jacksonFlag from '../images/jackson-flag.jpeg'
+import { Helmet } from 'react-helmet-async'
 
 const Bio = () => {
   return (
     <>
+      <Helmet>
+        <title>Bio</title>
+        <meta name="description" content="Learn more about Jackson." />
+        <link rel="canonical" href="/bio" />
+      </Helmet>
       <header className="h-screen/3 overflow-hidden pt-20 md:pt-0 ">
         <div className="relative">
           <img

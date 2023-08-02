@@ -3,10 +3,16 @@ import jacksonContact from '../images/jackson-contact.avif'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { IoMdMail } from 'react-icons/io'
 import SocialLink from '../components/SocialLink'
+import { Helmet } from 'react-helmet-async'
 
 const Contact = () => {
   return (
     <>
+      <Helmet>
+        <title>Contact</title>
+        <meta name="description" content="Get in touch." />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
       <header className="h-screen/3 overflow-hidden pt-20 md:pt-0 ">
         <div className="relative">
           <img
@@ -59,7 +65,7 @@ const Contact = () => {
             <div className="relative">
               <div className="absolute z-0 w-40 h-40 bg-slate-200 rounded-full -right-28 -top-28"></div>
               <div className="absolute z-0 w-40 h-40 bg-slate-200  rounded-full -left-28 -bottom-16"></div>
-              <div className="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
+              <div className="relative z-9 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
                 <form
                   action="https://formsubmit.co/jacksongrimmmusic@gmail.com"
                   method="POST"

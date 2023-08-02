@@ -1,9 +1,15 @@
 import React from 'react'
 import jacksonOutdoors from '../images/jackson-outdoors.jpeg'
+import { Helmet } from 'react-helmet-async'
 
 const Media = () => {
   return (
     <>
+      <Helmet>
+        <title>Media</title>
+        <meta name="description" content="Music and video." />
+        <link rel="canonical" href="/media" />
+      </Helmet>
       <div className="bg-gray-200 pt-20 md:pt-0">
         <header className="h-screen/3 overflow-hidden">
           <div className="relative">

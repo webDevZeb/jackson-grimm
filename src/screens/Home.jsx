@@ -1,10 +1,16 @@
 import React from 'react'
 import bandMountain from '../images/band-mountain.png'
 import Album from '../components/Album'
+import { Helmet } from 'react-helmet-async'
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="Jackson Grimm's home page." />
+        <link rel="canonical" href="/home" />
+      </Helmet>
       <div className="bg-gray-200 pt-20 md:pt-0">
         <div className="">
           <img
