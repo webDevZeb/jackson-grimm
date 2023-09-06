@@ -9,7 +9,7 @@ const Press = () => {
   return (
     <>
       <Helmet>
-        <title>Press Kit</title>
+        <title>Jackson Grimm - Press Kit</title>
         <meta name="description" content="Check out the press kit." />
         <link rel="canonical" href="/press" />
       </Helmet>

@@ -6,7 +6,7 @@ const Bio = () => {
   return (
     <>
       <Helmet>
-        <title>Bio</title>
+        <title>Jackson Grimm - Bio</title>
         <meta name="description" content="Learn more about Jackson." />
         <link rel="canonical" href="/bio" />
       </Helmet>

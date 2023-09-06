@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home</title>
-        <meta name="description" content="Jackson Grimm's home page." />
+        <title>Jackson Grimm - Home</title>
+        <meta name="description" content="Jackson Grimm music and merch." />
         <link rel="canonical" href="/home" />
       </Helmet>
       <div className="bg-gray-200 pt-20 md:pt-0">

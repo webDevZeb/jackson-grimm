@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact</title>
+        <title>Jackson Grimm - Contact</title>
         <meta name="description" content="Get in touch." />
         <link rel="canonical" href="/contact" />
       </Helmet>

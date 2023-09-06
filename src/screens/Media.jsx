@@ -6,7 +6,7 @@ const Media = () => {
   return (
     <>
       <Helmet>
-        <title>Media</title>
+        <title>Jackson Grimm - Media</title>
         <meta name="description" content="Music and video." />
         <link rel="canonical" href="/media" />
       </Helmet>

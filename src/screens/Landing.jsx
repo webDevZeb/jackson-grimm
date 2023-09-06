@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <div className="relative w-screen h-screen">
       <Helmet>
-        <title>Landing</title>
+        <title>Jackson Grimm - Enter Site</title>
         <meta name="description" content="Enter the site." />
         <link rel="canonical" href="/" />
       </Helmet>
