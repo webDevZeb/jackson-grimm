@@ -47,10 +47,10 @@ const Contact = () => {
 
                 <div>
                   <div className="inline-flex space-x-2 items-center">
-                    <a href="mailto:gambillz@gmail.com">
+                    <a href="mailto:jacksongrimmmusic@gmail.com">
                       <IoMdMail className="text-green-300" />
                     </a>
-                    <a href="mailto:jonathancoley180@gmail.com">
+                    <a href="mailto:jacksongrimmmusic@gmail.com">
                       jacksongrimmmusic@gmail.com
                     </a>
                   </div>
