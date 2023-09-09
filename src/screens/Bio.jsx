@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async'
 
 const Bio = () => {
   return (
-    <>
+    <div>
       <Helmet>
         <title>Jackson Grimm - Bio</title>
         <meta name="description" content="Learn more about Jackson." />
@@ -62,7 +62,7 @@ const Bio = () => {
           </p>
         </div>
       </main>
-    </>
+    </div>
   )
 }
 

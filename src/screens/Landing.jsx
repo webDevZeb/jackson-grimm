@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Landing = () => {
   return (
-    <div className="relative w-screen h-screen">
+    <div className="relative h-screen ">
       <Helmet>
         <title>Jackson Grimm - Enter Site</title>
         <meta name="description" content="Enter the site." />
